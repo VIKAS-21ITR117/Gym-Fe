@@ -1,0 +1,102 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Vikas\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add @reduxjs/toolkit
+
+PATH: 
+  C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\nodejs\;C:\Program Files\MongoDB\Server\5.0\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Vikas\AppData\Local\Microsoft\WindowsApps;C:\Users\Vikas\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Vikas\AppData\Roaming\npm;C:\Program Files\MongoDB\Server\5.0\bin;;C:\Users\Vikas\AppData\Local\Programs\Fiddler
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  19.8.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/reduxjs%2ftoolkit: Request "https://registry.yarnpkg.com/reduxjs%2ftoolkit" returned a 405
+      at params.callback [as _callback] (C:\Users\Vikas\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:66154:18)
+      at self.callback (C:\Users\Vikas\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:140890:22)
+      at Request.emit (node:events:512:28)
+      at Request.<anonymous> (C:\Users\Vikas\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141862:10)
+      at Request.emit (node:events:512:28)
+      at IncomingMessage.<anonymous> (C:\Users\Vikas\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141784:12)
+      at Object.onceWrapper (node:events:626:28)
+      at IncomingMessage.emit (node:events:524:35)
+      at endReadableNT (node:internal/streams/readable:1359:12)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+npm manifest: 
+  {
+    "name": "gym-website",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "@fortawesome/fontawesome-svg-core": "^6.4.2",
+      "@fortawesome/free-brands-svg-icons": "^6.4.2",
+      "@fortawesome/free-regular-svg-icons": "^6.4.2",
+      "@fortawesome/free-solid-svg-icons": "^6.4.2",
+      "@fortawesome/react-fontawesome": "^0.2.0",
+      "@fvilers/disable-react-devtools": "^1.3.0",
+      "@reduxjs/toolkit": "^1.9.7",
+      "@testing-library/jest-dom": "^5.17.0",
+      "@testing-library/react": "^13.4.0",
+      "@testing-library/user-event": "^13.5.0",
+      "@types/jest": "^27.5.2",
+      "@types/node": "^16.18.57",
+      "@types/react": "^18.2.25",
+      "@types/react-dom": "^18.2.10",
+      "@types/react-router-dom": "^5.3.3",
+      "firebase": "^10.1.0",
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0",
+      "react-icons": "^4.11.0",
+      "react-redux": "^8.1.2",
+      "react-router-dom": "^6.17.0",
+      "react-scripts": "^5.0.1",
+      "redux-persist": "^6.0.0",
+      "reduxjs/toolkit":"^1.9.7",
+      "typescript": "^5.2.2",
+      "web-vitals": "^2.1.4"
+    },
+    "overrides": {
+      "typescript": "^5.2.2"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+      "extends": [
+        "react-app",
+        "react-app/jest"
+      ]
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    },
+    "devDependencies": {
+      "@babel/preset-typescript": "^7.22.5",
+      "autoprefixer": "^10.4.15",
+      "postcss": "^8.4.28",
+      "source-map-loader": "^4.0.1",
+      "tailwindcss": "^3.3.3"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
